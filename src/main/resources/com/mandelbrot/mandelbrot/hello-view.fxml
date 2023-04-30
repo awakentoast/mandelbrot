@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mandelbrot.mandelbrot.HelloController">
+   <children>
+      <Canvas fx:id="canvas" height="551.0" layoutX="1300.0" layoutY="25.0" onScroll="#updateCanvas" width="551.0" />
+   </children>
+</Pane>
