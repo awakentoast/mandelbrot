@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mandelbrot.mandelbrot.HelloController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080" prefWidth="1920" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mandelbrot.mandelbrot.HelloController">
    <children>
-      <Canvas fx:id="canvas" height="551.0" layoutX="1300.0" layoutY="25.0" onScroll="#updateCanvas" width="551.0" />
+      <Canvas fx:id="canvas" height="970.0" layoutX="400.0" layoutY="25.0" onScroll="#updateCanvas" width="1500.0" />
+      <TextField promptText="qwe" text="hello1" />
+      <TextField layoutY="250.0" promptText="plo" text="hello2" />
+      <TextField layoutY="500.0" promptText="bnm" text="hello3" />
    </children>
 </Pane>
